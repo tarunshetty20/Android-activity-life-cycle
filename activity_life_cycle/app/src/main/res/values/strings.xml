@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CMPE277(1)</string>
+    <string name="activityA">Activity A</string>
+    <string name="startactB">Start Activity B</string>
+    <string name="dialogue">Dialog</string>
+    <string name="counter">Thread Counter : 001</string>
+    <string name="closeapp">Close App</string>
+
+    <string name="text1">Activity B occupies the complete window real-estate. The Android OS forces Activity A to be paused. Howeever, the background thread keep incrementing the counter...</string>
+    <string name="activityB">Activity B</string>
+    <string name="finish">Finish B</string>
+    <string name="title_activity_dialog">Dialog</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="SimpleDialog">Simple Dialog</string>
+    <string name="close">Close</string>
+    <string name="sampledialog">Sample Dialog</string>
+
+</resources>

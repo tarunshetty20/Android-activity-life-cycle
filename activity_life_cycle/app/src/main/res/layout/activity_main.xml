@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.tarun.cmpe2771.MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="107dp"
+        android:layout_height="118dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="23dp"
+        android:src = "@drawable/bricks"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/activitya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image1"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/image1"
+        android:layout_toRightOf="@+id/image1"
+        android:text="@string/activityA"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:text="@string/activityA" />
+
+    <Button
+        android:id="@+id/startactivityb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image1"
+        android:layout_alignStart="@+id/image1"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/startactB"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/startactivityb"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/dialogue"
+        android:onClick="startDialog"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startactivityb"
+        android:layout_marginTop="67dp"
+        android:layout_toLeftOf="@+id/dialog"
+        android:layout_toStartOf="@+id/dialog"
+        android:text="@string/counter"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/closeapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/counter"
+        android:layout_marginTop="76dp"
+        android:layout_toEndOf="@+id/image1"
+        android:layout_toLeftOf="@+id/dialog"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_toStartOf="@+id/dialog"
+        android:background="@android:color/background_dark"
+        android:text="@string/closeapp"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</RelativeLayout>
